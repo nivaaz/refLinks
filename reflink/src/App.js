@@ -1,8 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import links from './data/links'
+import socials from './data/socials'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { fab} from '@fortawesome/free-brands-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core'
+
+library.add(fab)
 /* component to render a single data cards. */
 const LinkCard = (props)=>{
   return (<div className="brandCard">
@@ -42,6 +47,17 @@ const renderCards = ()=>{
   return (<div className="renderCards">{items}</div>)
 }
 
+const renderSocials = ()=>{
+   const x = socials.map((key)=>{
+     return (
+       <div className="socialCard">
+        <a href={key.link}> <FontAwesomeIcon icon={["fab", key.icon]}/> </a> 
+        <p className="social"> {key.social} </p>
+       </div>
+     )
+   })
+   return (<div className="socialCardsList">{x}</div>)
+}
 /* component to hold everything together */
 function App() {
   return (
@@ -53,9 +69,12 @@ function App() {
       big={true}
       /> 
 
-      <p> 23 | 🐨 | Electrical Engineer turned self taught software engineer & entrepenur | self taught MUA</p>
+      <p> 23  🐨 </p>
+      <p>Electrical Engineer turned (self taught) software engineer & entrepreneur. </p>
+     
       </div>
       {renderCards()}
+      {renderSocials()}
     </div>
 
   );

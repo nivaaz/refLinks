@@ -1,0 +1,32 @@
+[
+    {
+        "social":"Medium",
+        "link":"https://medium.com/@nivaaz",
+        "icon":"medium"
+    },
+    {
+        "social":"Figma",
+        "link":"https://www.figma.com/@nivaaz",
+        "icon":"figma"
+    },
+    {
+        "social":"Linkedin",
+        "link":"https://www.linkedin.com/in/nsehmbhi/",
+        "icon":"linkedin"
+    },
+    {
+        "social":"Codepen",
+        "link":"https://codepen.io/nivaaaaaz",
+        "icon":"codepen"
+    },
+    {
+        "social":"Instagram",
+        "link":"https://www.instagram.com/nivaaaaaz/",
+        "icon":"instagram"
+    },{
+        "social":"Github",
+        "link":"https://github.com/nivaaz",
+        "icon":"github"
+    }
+
+]
