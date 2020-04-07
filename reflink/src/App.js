@@ -51,8 +51,9 @@ const renderSocials = ()=>{
    const x = socials.map((key)=>{
      return (
        <div className="socialCard">
-        <a href={key.link}> <FontAwesomeIcon icon={["fab", key.icon]}/> </a> 
+        <a href={key.link}> <FontAwesomeIcon icon={["fab", key.icon]}/> 
         <p className="social"> {key.social} </p>
+        </a> 
        </div>
      )
    })

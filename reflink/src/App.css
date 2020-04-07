@@ -66,6 +66,7 @@ h1.headingLink a:hover{
 
 a{
   color: #10ac84;
+  text-decoration: none;
 }
 a:hover{
   color:white;
@@ -80,6 +81,10 @@ h1.headingLink a{
   min-height: 50px;
   min-width: 50px;
   margin: 0 auto;
+  border-radius: 1em;
+}
+.socialCard:hover{
+  border: 1px solid #10ac84;
 }
 .socialCardsList{
   display: flex;
