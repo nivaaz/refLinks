@@ -73,6 +73,7 @@ function App() {
       <p>Electrical Engineer turned (self taught) software engineer & entrepreneur. </p>
      
       </div>
+      <h2 className="codes">Affiliate Codes & Links </h2>
       {renderCards()}
       {renderSocials()}
     </div>
