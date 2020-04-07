@@ -83,9 +83,7 @@ h1.headingLink a{
   margin: 0 auto;
   border-radius: 1em;
 }
-.socialCard:hover{
-  border: 1px solid #10ac84;
-}
+
 .socialCardsList{
   display: flex;
   flex-direction: row;
