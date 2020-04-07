@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #222f3e;
+  color: #c8d6e5;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/**/
+.brandCard{
+  border-radius: 1em;
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid #1fecb6;
+  width: fit-content;
+  margin: 0 auto;
+}
+.brandCard:hover{
+  box-shadow: 0px 0px 25px -10px #1fecb6;
+
+}
+.renderCards{
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1em;
+}
+
+a{
+  color: #10ac84;
+}
+a:hover{
+  color:white;
+}
+h1.headingLink a{
+  color: white;
+  text-decoration: none;
+  font-size: xx-large;
+}
